@@ -13,7 +13,7 @@ def is_valid_action(action:str,length):
                     return False , 'you have to enter str'
                 except ValueError as e:
                     if action.lower() == 'h' or action.lower() == 's':
-                        return True , action
+                        return True , ' '
                     else:
                         return False , 'you have to enter h or s'
 
